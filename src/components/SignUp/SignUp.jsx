@@ -180,21 +180,12 @@ const SignUp = () => {
           />
         </div>
         <div className="signup-btn">
-          {/* <input
+          <input
             type="submit"
             className="btn-submit"
             value="SIGN UP"
             onClick={handleSubmit}
-          /> */}
-          <Button
-            //className={classes.itemStyle}
-            variant="contained"
-            color="primary"
-            onClick={handleSubmit}
-          >
-            {" "}
-            Sign Up{" "}
-          </Button>
+          />
           <span className="login-link">
             <Link to="/login">Already have an account? Sign In</Link>
           </span>
